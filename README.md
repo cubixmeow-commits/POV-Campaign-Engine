@@ -54,8 +54,11 @@ campaign-engine/
 ├── formats/                      # Format-specific unit and assembly rules
 │   ├── x-thread.md                # X post constraints (default format)
 │   └── newsletter.md              # Newsletter section constraints
-└── examples/
-    └── README.md                 # Curated real-event roster, queued for full runs
+├── examples/
+│   └── README.md                 # Curated real-event roster, queued for full runs
+└── viewer/                       # No-database PHP dossier viewer for shared hosting
+    ├── index.php
+    └── assets/style.css
 ```
 
 The split matters: Steps 1-4 of the pipeline (research, extraction, campaign design, scene ladder) are identical no matter where the output lands. Only Step 5-6 (unit conversion and assembly) differ by format. That's why `references/` and `formats/` are separate directories — one holds the event modeling, the other holds the prose rules for a specific medium.
@@ -86,3 +89,48 @@ Then run it through the skill. The output is a single markdown file in the reque
 
 - Additional format specs (documentary beat sheet, podcast outline) — not yet built. Adding a format means writing a full `formats/*.md` spec with the same rigor as `x-thread.md`, not a stub.
 - Saving intermediate pipeline artifacts (research notes, board, scene ladder) as separate inspectable files per run, rather than only the final output.
+
+## Hostinger Deployment
+
+This repo includes a zero-database PHP viewer in `viewer/` that runs on Hostinger shared hosting without Composer, npm, or server configuration changes.
+
+### Upload
+
+1. Upload the full repository to your Hostinger account.
+2. Place it either directly in `public_html/` or in a subfolder such as `public_html/pov-campaign-engine/`.
+3. Keep the repo structure intact so `viewer/` sits next to `examples/`.
+
+Example layout:
+
+```
+public_html/pov-campaign-engine/
+├── examples/
+│   └── crowdstrike-outage/
+├── viewer/
+│   ├── index.php
+│   └── assets/
+│       └── style.css
+└── README.md
+```
+
+### Viewer URL
+
+If you uploaded the repo to `public_html/pov-campaign-engine/`, open:
+
+```
+https://yourdomain.com/pov-campaign-engine/viewer/
+```
+
+If you uploaded the repo directly into `public_html/`, open:
+
+```
+https://yourdomain.com/viewer/
+```
+
+### Requirements
+
+- PHP 8.0 or newer (default on current Hostinger shared plans)
+- Read access to the `examples/` directory relative to `viewer/index.php`
+- No database, cron job, or `.htaccess` changes required
+
+The viewer reads markdown files directly from `../examples/`, lists available example folders, and renders pipeline artifacts in a mobile-first dark UI with Copy and Download actions for the active tab.
