@@ -56,15 +56,13 @@ The output is a single markdown file. Current formats: X thread (default), newsl
 
 ## Core Principles
 
-### The Three Engines
+### The Two Engines
 
-This skill runs on three engines simultaneously:
+This skill runs on two engines simultaneously:
 
 1. **The Information Engine.** Tension comes from what is WITHHELD, not what is described. The reader inherits the POV's information gaps. The gap is the product.
 
 2. **The Detail Engine.** Immersion comes from verified sensory detail placed at full resolution. Real names of real places. Real prices on real menus. Real signs on real walls. Real weather on real streets. Every detail must come from research. Nothing is invented. But everything that is real is rendered vividly.
-
-3. **The Understatement Engine.** Engagement comes from the voice refusing to match the escalation. The flatter the delivery, the harder the situation hits. The comedy, the tension, and the horror all come from the same place: a narrator who states facts without editorializing while the facts themselves are extraordinary.
 
 ### The Callback System
 
@@ -218,18 +216,13 @@ The universal principle: choose the POV that is **close enough to see and far en
 
 ## Voice and Style
 
-### The Understatement Principle
+### Expressive Voice
 
-The voice is flat. The facts are not.
+The narrator can react. The reader should feel what the POV feels, not just infer it from a list of facts.
 
-When the situation is absurd, state it plainly. When the situation is escalating, describe what is observable. When the situation is comedic, let the structure do the work.
+When the situation is absurd, the prose can register the absurdity. When the situation is escalating, the mounting pressure can show up in the writing, not only in the plot. When the situation is frightening or upsetting, the narrator is allowed to sound frightened or upset.
 
-The funniest line in a piece is never a joke. It is a fact delivered without commentary at the moment when the reader can see the gap between what is happening and what should be happening.
-
-Examples of the understatement engine at work:
-- "The answer tonight is two." (After describing how many times a man had to be held down)
-- "It does not help." (After noting that everyone knows who the subject is)
-- "Mardi Gras does not pause." (After a violent incident outside a bar that stays open)
+This is bounded in two ways, detailed fully in each format's own file: reactions must stay grounded in what the POV actually witnessed (no invented feelings standing in for invented facts), and the narrator never passes moral judgment on real people's actions. Feeling something and litigating it are different, and only the first is in bounds.
 
 ### Sentence Rhythm
 
@@ -311,9 +304,9 @@ Format and rules for breaking acts into scenes and converting scenes into units.
 **When to read:** During Step 4 (scene ladder), format-independent.
 
 ### formats/x-thread.md
-Exact constraints for writing X posts and assembling the final thread. Includes hook/loop system, understatement examples, and callback placement rules. Default format.
+Exact constraints for writing X posts and assembling the final thread. Includes hook/loop system, flat-delivery examples, and callback placement rules. Default format.
 **When to read:** During Steps 5 and 6, when the output format is an X thread.
 
 ### formats/newsletter.md
-Exact constraints for writing newsletter sections and assembling the final issue. Same information-gating and understatement principles as x-thread.md, adapted for longer units and inbox pacing.
+Exact constraints for writing newsletter sections and assembling the final issue. Same information-gating and flat-delivery principles as x-thread.md, adapted for longer units and inbox pacing.
 **When to read:** During Steps 5 and 6, when the output format is a newsletter.

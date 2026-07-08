@@ -64,30 +64,28 @@ Bad loops:
 
 ---
 
-## The Understatement Engine
+## Expressive Voice
 
-The voice is flat. The facts are not.
+The narrator can react. The reader should feel what the POV feels, not just infer it from a list of facts.
 
-This is the core stylistic principle of V2. The narrator states what is observable without matching the emotional register of the events. The gap between the flat voice and the extraordinary situation is where engagement lives.
+This is a core stylistic principle of the format. Interiority, emotional language, and reaction are all in bounds: when something is frightening, the prose can be frightening. When something is absurd, the prose can register the absurdity directly instead of only implying it through structure.
 
 ### How It Works
 
-When the situation is absurd, state it plainly:
-- "This is the structural fact of the evening: he was removed, he hit someone, he left, he had every opportunity to vanish into Fat Tuesday morning, and he came back to the same bar, on the same block, where the same people are standing."
+When the situation is absurd, let it land as absurd:
+- "This is the structural fact of the evening: he was removed, he hit someone, he left, he had every opportunity to vanish into Fat Tuesday morning, and he came back anyway, to the same bar, on the same block, where the same people are standing, and it is genuinely hard to believe."
 
-When the situation resolves in an ironic way, let the structure carry the irony:
-- "The man who asked 'Do you know who I am?' at a different bar two days ago is being held on a sidewalk by strangers. Everyone on Royal Street knows who he is. It does not help."
+When the situation resolves in an ironic way, the narrator can name the irony:
+- "The man who asked 'Do you know who I am?' at a different bar two days ago is being held on a sidewalk by strangers. Everyone on Royal Street knows exactly who he is. It changes nothing, and there is something bleak about that."
 
-When something continues despite what just happened, state the continuation:
-- "You are behind the bar. The bar does not close. It is Mardi Gras."
-- "Mardi Gras does not pause."
+When something continues despite what just happened, the strangeness of the continuation can be felt, not just stated:
+- "You are behind the bar. The bar does not close. It is Mardi Gras, and nobody outside this block seems to know or care what just happened ten feet from the taps."
 
-### What Understatement Is NOT
+### What Expressive Voice Is NOT
 
-- It is not deadpan comedy. The narrator is not trying to be funny.
-- It is not irony. The narrator is not winking at the reader.
-- It is not sarcasm. There is no edge in the voice.
-- It is simply a voice that reports what is happening without inflating it. The inflation comes from the facts themselves.
+- It is not invented fact. Reactions and emotional framing describe how the POV experiences verified events. They never supply details, dialogue, or outcomes that research didn't establish.
+- It is not moral judgment on real people or real events (see Moral Neutrality below). The POV can feel something. The narrator does not editorialize about who was right.
+- It is not purple prose. "The silence was deafening" is a cliché standing in for an actual observation, not genuine expressiveness. Say what was actually felt or noticed, specifically.
 
 ---
 
@@ -96,21 +94,22 @@ When something continues despite what just happened, state the continuation:
 These apply to EVERY move without exception:
 
 - No em dashes. Use periods, commas, or line breaks.
-- No emotional language ("heartbreaking," "chilling," "terrifying," "devastating")
-- No emotional adjectives ("grim," "somber," "tense," "haunting")
-- No internal thoughts ("you wonder," "you realize," "it occurs to you")
 - No invented dialogue (unless directly quoting a confirmed public statement)
 - No speculation ("this could mean," "perhaps," "it's possible that")
 - No conclusions ("it's clear that," "this proves," "the evidence suggests")
 - No future knowledge (the POV does not know what happens in the next move)
-- No cinematic language ("the silence is deafening," "time seems to stop")
-- No moral commentary ("tragically," "unjustly," "cruelly")
+- No moral commentary ("tragically," "unjustly," "cruelly") — see Moral Neutrality below. Emotional reaction is fine; verdicts on real people are not.
+- No clichéd or purple prose ("the silence was deafening," "time seemed to stop") — be specific about what was felt instead of reaching for a stock phrase
 - No hashtags
 - No emojis
 - No marketing tone ("stay tuned," "you won't believe," "what happens next")
 - No thread navigation cues ("thread below," "1/15," "keep reading")
 - No meta-commentary about the format ("this is a thread about," "let me walk you through")
 - No invented sensory details. Every physical detail must come from research.
+
+### Moral Neutrality (distinct from tone)
+
+The voice can be scared, angry, awed, or unsettled. It still does not tell the reader who was wrong, who deserved what, or how to feel about a real person's actions. That line exists for accuracy and fairness to real people in the piece, not for flatness — an expressive narrator and a neutral one aren't in conflict.
 
 ---
 
@@ -234,14 +233,14 @@ Before finalizing, verify each move against these questions:
 2. Does the POV have access to this information at this point in the timeline? (Information gating)
 3. Does the move open with a scroll-stopping hook? (Verified detail or concrete image)
 4. Does the move end with something unresolved? (The loop)
-5. Are there any emotional adjectives? (Remove them)
+5. Does any moral commentary or verdict on a real person's actions need to come out? (Reaction is fine, judgment isn't)
 6. Are there any em dashes? (Replace with periods, commas, or line breaks)
-7. Are there any internal thoughts? (Remove them)
+7. Does the emotional reaction feel earned by what the POV actually witnessed, or is it inserted for effect? (Grounded, not decorative)
 8. Is there any speculation? (Remove it)
 9. Is there any future knowledge? (Remove it)
 10. Does the move state what the POV does NOT know? (It must)
 11. Are verified details placed, not stacked? (One or two per paragraph, woven into action)
-12. Is the understatement engine engaged? (Voice flat, facts extraordinary)
+12. Is the expressiveness specific, or does it lean on a cliché? (Say what was actually felt, not a stock phrase)
 13. Are callbacks placed without announcement? (No "as mentioned earlier")
 14. Would this read naturally on a phone screen with heavy white space? (Mobile-native)
 15. Does this post work as a standalone unit AND gain power from the thread? (Dual function)

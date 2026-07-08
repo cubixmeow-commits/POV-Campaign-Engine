@@ -52,9 +52,9 @@ Unlike an X thread (which ends at the board state with no further contact until 
 
 ---
 
-## The Understatement Engine
+## Expressive Voice
 
-Identical principle to the X-thread format: the voice is flat, the facts are not. Do not turn up the emotional register just because the medium allows more words. More space is not permission for more adjectives. It is permission for more verified detail, placed with the same one-or-two-per-paragraph discipline as the X-thread format.
+Identical principle to the X-thread format: the narrator can react, and the reader should feel what the POV feels. The extra space a newsletter allows is permission for more grounded interiority and more verified detail, placed with the same one-or-two-per-paragraph discipline as the X-thread format — not permission for cliché or padding.
 
 ---
 
@@ -63,14 +63,12 @@ Identical principle to the X-thread format: the voice is flat, the facts are not
 Same list as the X-thread format, in full, with two additions specific to the newsletter medium:
 
 - No em dashes.
-- No emotional language or emotional adjectives.
-- No internal thoughts.
 - No invented dialogue.
 - No speculation.
 - No conclusions.
 - No future knowledge.
-- No cinematic language.
-- No moral commentary.
+- No moral commentary or verdicts on real people's actions — reaction is fine, judgment isn't (see Moral Neutrality in the X-thread format).
+- No clichéd or purple prose — say what was actually felt, not a stock phrase.
 - No hashtags or emojis.
 - No marketing tone.
 - No meta-commentary about the format.

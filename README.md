@@ -28,11 +28,10 @@ Real Event → Operational Research → Structural Extraction → Campaign Desig
 5. **Unit Conversion** — Each scene becomes one narrative unit in the requested format: present tense, hook at the top, unresolved loop at the bottom.
 6. **Assembly** — Frame unit, chronological units, and a final board-state unit with no resolution. Steps 1-4 are identical regardless of format; only 5-6 are format-specific (see `formats/`).
 
-## The Three Engines
+## The Two Engines
 
 - **The Information Engine.** Tension comes from what is withheld. The reader inherits the POV's information gaps. The gap is the product.
 - **The Detail Engine.** Immersion comes from verified sensory detail at full resolution. Nothing is invented. Everything real is rendered vividly.
-- **The Understatement Engine.** The voice stays flat while the facts escalate. The reader supplies the emotion the narrator withholds.
 
 ## Design Highlights
 
